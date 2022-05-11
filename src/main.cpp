@@ -88,7 +88,7 @@ int main() {
 	if(num_of_execution%2 == 0) output_matr = &pixel_matr;
 	else output_matr = &copy_pixel_matr;
 	print_matr(*output_matr);*/
-	//print_matr(pixel_matr);
+	print_matr(pixel_matr);
 	unsigned int end_time = clock();
 	std::cout << end_time - start_time << std::endl;
 }

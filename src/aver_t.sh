@@ -8,7 +8,7 @@ done
 
 sum=0
 sum_iter=0
-AVERAGEITER=100
+AVERAGEITER=10
 
 for((i=0;i<num_of_tests;i++))
 do
